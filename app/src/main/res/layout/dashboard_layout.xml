@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="DisableBaselineAlignment">
+
+    <RelativeLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:ignore="UselessParent">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/empati"
+                android:id="@+id/ivempati"
+                android:layout_weight="0.1"
+                tools:ignore="ContentDescription"
+                android:scaleType="fitXY" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/defini"
+                android:id="@+id/ivdefine"
+                android:layout_weight="0.1"
+                tools:ignore="ContentDescription"
+                android:scaleType="fitXY" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/idea"
+                android:id="@+id/ividea"
+                android:layout_weight="0.1"
+                tools:ignore="ContentDescription"
+                android:scaleType="fitXY" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/proto"
+                android:id="@+id/ivproto"
+                android:layout_weight="0.1"
+                tools:ignore="ContentDescription"
+                android:scaleType="fitXY" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/test"
+                android:id="@+id/ivtest"
+                android:layout_weight="0.1"
+                tools:ignore="ContentDescription"
+                android:scaleType="fitXY" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:ignore="UselessParent"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvempati"
+                tools:ignore="HardcodedText"
+                android:layout_weight="0.2"
+                android:gravity="center"
+                android:background="@android:color/holo_red_light"
+                android:textColor="@color/colortext"
+                android:hint="DATA KOSONG" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvdefine"
+                tools:ignore="HardcodedText"
+                android:layout_weight="0.2"
+                android:gravity="center"
+                android:background="@android:color/holo_orange_light"
+                android:hint="DATA KOSONG" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvidea"
+                tools:ignore="HardcodedText"
+                android:layout_weight="0.2"
+                android:gravity="center"
+                android:background="@android:color/holo_green_light"
+                android:hint="DATA KOSONG" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvprototype"
+                android:layout_weight="0.2"
+                android:gravity="center"
+                android:background="?attr/colorPrimary"
+                android:hint="DATA KOSONG" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvtesting"
+                tools:ignore="HardcodedText"
+                android:layout_weight="0.2"
+                android:gravity="center"
+                android:background="@android:color/holo_blue_dark"
+                android:hint="DATA KOSONG" />
+        </LinearLayout>
+
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sandi.funtastiq.Login"
+    android:background="@color/colorPrimary">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/login"
+        android:id="@+id/imageView5"
+        android:background="@drawable/login"
+        android:scaleType="centerCrop" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/etemail"
+        android:background="@color/colorisibgp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="50dp"
+        android:layout_alignBottom="@+id/etpass"
+        android:layout_centerHorizontal="true"
+        android:layout_height="40dp"
+        android:hint="USERNAME" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/etpass"
+        android:background="@color/colorisibgp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="40dp"
+        android:layout_height="40dp"
+        android:layout_above="@+id/btlogin"
+        android:layout_centerHorizontal="true"
+        android:hint="PASSWORD" />
+
+    <Button
+        android:text="Login"
+        android:layout_height="30dp"
+        android:id="@+id/btlogin"
+        android:background="@android:color/holo_red_dark"
+        android:textSize="20sp"
+        android:textStyle="normal|bold"
+        android:textColor="@color/colorisibgp"
+        android:layout_width="200dp"
+        android:fontFamily="sans-serif"
+        android:textAllCaps="false"
+        android:layout_marginBottom="52dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/user"
+        android:visibility="invisible" />
+</RelativeLayout>

@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_mission"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sandi.funtastiq.dashboard.MissionEmpaty"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_weight="0.5"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_weight="1.2"
+                android:layout_height="match_parent"
+                android:background="@drawable/tool_empati"
+                android:weightSum="1">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.3">
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5"
+                    android:weightSum="1">
+
+                    <ImageView
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/entry"
+                        android:id="@+id/ivmisentry"
+                        android:layout_width="50dp" />
+
+                    <ImageView
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/preview"
+                        android:id="@+id/ivmispreview"
+                        android:layout_width="50dp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_weight="0.5"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorisibg">
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.5"
+                        android:layout_margin="10dp">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            app:srcCompat="@drawable/place"
+                            android:id="@+id/ivmisplace"
+                            android:layout_weight="1"
+                            android:layout_margin="2dp" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            app:srcCompat="@drawable/write"
+                            android:id="@+id/ivmissurvey"
+                            android:layout_weight="1"
+                            android:layout_margin="2dp" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            app:srcCompat="@drawable/world"
+                            android:id="@+id/ivmislink"
+                            android:layout_weight="1"
+                            android:layout_margin="2dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.7">
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <TextView
+                    android:text="-------------------------------------------------------------------------------------------------"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView21"
+                    android:layout_weight="0.5"
+                    android:background="@color/colorisibg"
+                    android:textColor="@color/colortext" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_weight="0.2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorisibg"
+                android:layout_weight="0.5">
+
+                <TextView
+                    android:text="MISSION ON THIS STAGE"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView3"
+                    android:textSize="12sp"
+                    android:textColor="@color/colortext"
+                    android:layout_marginBottom="20dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center" />
+
+                <TextView
+                    android:text="Selamat datang di Outing Design Thinking"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView4"
+                    android:textSize="12sp"
+                    android:textColor="@color/colortext"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center" />
+
+                <TextView
+                    android:text="Tahap pertama ini andalah tahap empati. Tujuan dari"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView5"
+                    android:textSize="12sp"
+                    android:textColor="@color/colortext"
+                    android:gravity="center" />
+
+                <TextView
+                    android:text="tahap ini adalah peserta mendapatkan empati terhadap"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView6"
+                    android:textSize="12sp"
+                    android:textColor="@color/colortext"
+                    android:gravity="center" />
+
+                <TextView
+                    android:text="kebiasaan/pekerjaan/aktivitas hingga masalah yang"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView25"
+                    android:textSize="12sp"
+                    android:textColor="@color/colortext"
+                    android:gravity="center" />
+                <TextView
+                    android:text="dihadapi warga sekitar. Untuk itu lakukanlah beberapa"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView2"
+                    android:textSize="12sp"
+                    android:textColor="@color/colortext"
+                    android:gravity="center" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView7"
+                    android:textSize="12sp"
+                    android:textColor="@color/colortext"
+                    android:gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:text="hal di bawah ini :" />
+                <TextView
+                    android:text="1. Temukan lokasi yang harus kelompok anda tuju dengan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView8"
+                    android:textSize="12sp"
+                    android:textColor="@color/colortext"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center" />
+
+                <TextView
+                    android:text="mengklik lokasi diatas."
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView9"
+                    android:textSize="12sp"
+                    android:textColor="@color/colortext"
+                    android:gravity="center" />
+
+                <TextView
+                    android:text="2. Segeralan menuju lokasi tersebut."
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView10"
+                    android:textSize="12sp"
+                    android:textColor="@color/colortext"
+                    android:gravity="center" />
+
+                <TextView
+                    android:text="3. Sesampai di lokasi tersebut, lakukanlah bersama warga"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView11"
+                    android:textSize="12sp"
+                    android:textColor="@color/colortext"
+                    android:gravity="center" />
+                <TextView
+                    android:text="sekitar sebuah pekerjaan / kegiatan harian mereka,"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView12"
+                    android:textSize="12sp"
+                    android:textColor="@color/colortext"
+                    android:gravity="center" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView13"
+                    android:textSize="12sp"
+                    android:textColor="@color/colortext"
+                    android:gravity="center"
+                    android:text="untuk kelompok ini adalah melakukan bertani strawberry" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView131"
+                    android:textSize="12sp"
+                    android:textColor="@color/colortext"
+                    android:gravity="center"
+                    android:text="bersama warga sekitar." />
+                <TextView
+                    android:text="4. Libatkan diri anda dalam kegiatan mereka, dengan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView14"
+                    android:textSize="12sp"
+                    android:textColor="@color/colortext"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center" />
+
+                <TextView
+                    android:text="melakukan observasi terhadap apa yang tengah dikerjakan."
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView15"
+                    android:textSize="12sp"
+                    android:textColor="@color/colortext"
+                    android:gravity="center" />
+
+                <TextView
+                    android:text="5. Tuliskan pengalaman, kesan, yang kelompok anda rasakan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView16"
+                    android:textSize="12sp"
+                    android:textColor="@color/colortext"
+                    android:gravity="center" />
+
+                <TextView
+                    android:text="ketika terlibat dalam kegiatan warga tersebut."
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView17"
+                    android:textSize="12sp"
+                    android:textColor="@color/colortext"
+                    android:gravity="center" />
+                <TextView
+                    android:text="6. Klik tanda Segitiga di kanan atas untuk meng-entry tulisan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView18"
+                    android:textSize="12sp"
+                    android:textColor="@color/colortext"
+                    android:gravity="center" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView19"
+                    android:textSize="12sp"
+                    android:textColor="@color/colortext"
+                    android:gravity="center"
+                    android:text="anda sebagai laporan terhadap apa yang sedang anda" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView20"
+                    android:textSize="12sp"
+                    android:textColor="@color/colortext"
+                    android:gravity="center"
+                    android:text="lakukan, selain tulisan anda dapat pula menambahkan foto." />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView22"
+                    android:textSize="12sp"
+                    android:textColor="@color/colortext"
+                    android:gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:text="7. Tahap ini berdurasi selama 60 menit." />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

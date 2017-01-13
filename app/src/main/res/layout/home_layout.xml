@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/home_layout"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="?attr/colorControlHighlight">
+
+        <ImageView
+            app:srcCompat="@drawable/logo"
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:layout_height="50dp" />
+
+        <TextView
+            android:text="Hai Indosaters"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView3"
+            android:textSize="12sp"
+            android:textColor="?android:attr/panelColorForeground"
+            android:layout_marginBottom="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:gravity="center" />
+
+        <TextView
+            android:text="Selamat datang di aplikasi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView4"
+            android:textSize="12sp"
+            android:textColor="?android:attr/panelColorForeground"
+            android:layout_centerHorizontal="true"
+            android:gravity="center" />
+
+        <TextView
+            android:text='"Funtastique ; Outing Design Thingking"'
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView5"
+            android:textSize="12sp"
+            android:textColor="@android:color/background_dark"
+            android:textStyle="normal|bold"
+            android:gravity="center" />
+
+        <TextView
+            android:text="sebuah aplikasi yang di tujukan sebagai pemandu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView6"
+            android:textSize="12sp"
+            android:textColor="?android:attr/panelColorForeground"
+            android:gravity="center" />
+
+        <TextView
+            android:text="perjalanan anda sekaligus sebagai jurnal outing anda"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2"
+            android:textSize="12sp"
+            android:textColor="?android:attr/panelColorForeground"
+            android:gravity="center" />
+        <TextView
+            android:text="sebuah aplikasi yang di tujukan sebagai pemandu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView7"
+            android:textSize="12sp"
+            android:textColor="?android:attr/panelColorForeground"
+            android:gravity="center"
+            android:layout_marginBottom="10dp" />
+
+        <TextView
+            android:text="Outing Design Thinking merupakan model baru"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView8"
+            android:textSize="12sp"
+            android:textColor="?android:attr/panelColorForeground"
+            android:gravity="center" />
+        <TextView
+            android:text="pelatihan team building yang diintegrasikan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView9"
+            android:textSize="12sp"
+            android:textColor="?android:attr/panelColorForeground"
+            android:gravity="center" />
+
+        <TextView
+            android:text="dengan kegiatan outing karyawan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView10"
+            android:textSize="12sp"
+            android:textColor="?android:attr/panelColorForeground"
+            android:gravity="center" />
+
+        <TextView
+            android:text="Indosat Ooredoo dengan metode design thingking"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView11"
+            android:textSize="12sp"
+            android:textColor="?android:attr/panelColorForeground"
+            android:gravity="center" />
+
+        <TextView
+            android:text="(berfikir desain)"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView12"
+            android:textSize="12sp"
+            android:textColor="?android:attr/panelColorForeground"
+            android:gravity="center"
+            android:layout_marginBottom="10dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView13"
+            android:textSize="12sp"
+            android:textColor="?android:attr/panelColorForeground"
+            android:gravity="center"
+            android:text="Untuk menggunakan aplikasi ini silahkan baca dalam MENU." />
+
+        <TextView
+            android:text="Untuk menjalankan misi silahkan menuju DASHBOARD,"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView14"
+            android:textSize="12sp"
+            android:textColor="?android:attr/panelColorForeground"
+            android:gravity="center" />
+        <TextView
+            android:text="Untuk menulis jurnal/laporan design thinking"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView15"
+            android:textSize="12sp"
+            android:textColor="?android:attr/panelColorForeground"
+            android:gravity="center" />
+
+        <TextView
+            android:text="Silahkan menulis dalam halaman ENTRY"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView16"
+            android:textSize="12sp"
+            android:textColor="?android:attr/panelColorForeground"
+            android:gravity="center" />
+        <TextView
+            android:text="Untuk melihat hasilnya dapat dilihat dalam PAGE PREVIEW"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView17"
+            android:textSize="12sp"
+            android:textColor="?android:attr/panelColorForeground"
+            android:gravity="center"
+            android:layout_marginBottom="10dp" />
+
+        <TextView
+            android:text="Oke para Indosaters."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView18"
+            android:textSize="12sp"
+            android:textColor="?android:attr/panelColorForeground"
+            android:gravity="center" />
+        <TextView
+            android:text="Selamat bergembira dan selalu berfikir positif."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView19"
+            android:textSize="12sp"
+            android:textColor="?android:attr/panelColorForeground"
+            android:gravity="center"
+            android:layout_marginBottom="10dp" />
+
+        <TextView
+            android:text="Salam berbudaya"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView20"
+            android:textSize="12sp"
+            android:textColor="?android:attr/panelColorForeground"
+            android:gravity="center" />
+
+    </LinearLayout>
+
+</RelativeLayout>

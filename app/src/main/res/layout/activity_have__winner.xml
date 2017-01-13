@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_have__winner"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sandi.funtastiq.Have_Winner"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <ImageView
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_home"
+            android:id="@+id/iv_home" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView12"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:layout_width="47dp"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_logout"
+            android:id="@+id/iv_exit" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        app:srcCompat="@drawable/logo_winner"
+        android:id="@+id/imageView13"
+        android:layout_height="150dp" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp">
+
+        <TextView
+            android:text="Hi Indosaters"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView34"
+            android:gravity="center"
+            android:textColor="@color/cast_expanded_controller_background_color"
+            android:textStyle="normal|bold"
+            android:layout_marginBottom="10dp"
+            android:textSize="18sp" />
+
+        <TextView
+            android:text="We are so proud of you for participate and accomplished"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView33"
+            android:gravity="center"
+            android:textColor="@color/cast_expanded_controller_background_color"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:text="All mission at Indosat Ooredoo Outing Design Thinking"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView32"
+            android:gravity="center"
+            android:textColor="@color/cast_expanded_controller_background_color"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView35"
+            android:layout_marginTop="20dp"
+            android:text="Before you leave this apps, please give a"
+            android:gravity="center"
+            android:textColor="@color/cast_expanded_controller_background_color"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:text="Personal Feedback and Group Recomendation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView36"
+            android:gravity="center"
+            android:textColor="@android:color/holo_red_dark"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView37"
+            android:text="About you find discovery from this program "
+            android:gravity="center"
+            android:textColor="@color/cast_expanded_controller_background_color"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView38"
+            android:text="will become recomendation and feedback for "
+            android:gravity="center"
+            android:textColor="@color/cast_expanded_controller_background_color"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:text="Indosat management do better. "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView39"
+            android:gravity="center"
+            android:textColor="@color/cast_expanded_controller_background_color"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:text="So Indosaters, have good rest and enjoy your next outing trip."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView40"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:textColor="@color/cast_expanded_controller_background_color"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:text="Keep our youthfull spirit alive all day long!"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView41"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:textColor="@color/cast_expanded_controller_background_color"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:text="Salam Berdaya!"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView42"
+            android:gravity="center"
+            android:textColor="@color/cast_expanded_controller_background_color"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:text="Antique Team"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView43"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:textColor="@color/cast_expanded_controller_background_color"
+            android:textStyle="normal|bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp">
+
+        <TextView
+            android:text="Personal Feedback"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/tv_feedback"
+            android:layout_weight="1"
+            android:textColor="@color/colorisibgp"
+            android:background="@color/button"
+            android:textStyle="normal|bold"
+            android:gravity="center"
+            android:layout_margin="2dp" />
+
+        <TextView
+            android:text="Group Couslusion"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/tv_group"
+            android:layout_weight="1"
+            android:background="@color/button"
+            android:textColor="@color/colorisibgp"
+            android:textStyle="normal|bold"
+            android:gravity="center"
+            android:layout_margin="2dp" />
+    </LinearLayout>
+
+</LinearLayout>

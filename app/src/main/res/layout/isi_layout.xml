@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="5dp"
+    android:layout_marginLeft="30dp"
+    android:layout_marginRight="30dp">
+
+    <com.example.sandi.funtastiq.dashboard.widget.LineEditText
+        android:id="@+id/activity_new_entry_body"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@null"
+        android:inputType="textMultiLine|textNoSuggestions"
+        android:minLines="10"
+        android:imeOptions="actionNone"
+        android:text="Story : \n"
+        android:layout_weight="0.3"
+        android:textSize="14sp" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/fr1"
+        android:background="@drawable/frame">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/main_img1"
+            android:layout_margin="10dp"
+            android:scaleType="fitXY"
+            android:foregroundGravity="center" />
+    </FrameLayout>
+
+    <com.example.sandi.funtastiq.dashboard.widget.LineEditText
+        android:id="@+id/activity_new_entry_body1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@null"
+        android:inputType="textMultiLine|textNoSuggestions"
+        android:minLines="10"
+        android:imeOptions="actionNone"
+        android:layout_weight="0.3"
+        android:textSize="14sp" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/fr2"
+        android:background="@drawable/frame">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/main_img2"
+            android:layout_margin="10dp"
+            android:scaleType="fitXY"
+            android:foregroundGravity="center" />
+    </FrameLayout>
+
+    <com.example.sandi.funtastiq.dashboard.widget.LineEditText
+        android:id="@+id/activity_new_entry_body2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@null"
+        android:inputType="textMultiLine|textNoSuggestions"
+        android:minLines="10"
+        android:imeOptions="actionNone"
+        android:layout_weight="1"
+        android:textSize="14sp" />
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/fr3"
+        android:background="@drawable/frame">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/main_img3"
+            android:layout_margin="10dp"
+            android:scaleType="fitXY"
+            android:foregroundGravity="center" />
+    </FrameLayout>
+
+</LinearLayout>
